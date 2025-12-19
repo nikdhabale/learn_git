@@ -15,3 +15,26 @@ git show "sha id"
 
 ===
 New changes
+
+19/12 git commands learned
+1. git checkout -b feature-branch-name
+2. git push --set-upstream origin feature-branch-name
+
+In GitHub Changes from new feature branch were merged without conflict and deleted the branch
+3. git pull main
+4. git pull origin main
+
+To revert the changes pushed to main used below commands :
+5. Git revert HEAD (ctrl+c and saved file as it is)
+6. Git push origin main
+
+New changes added 
+7. git add <file>
+8. git add . (For all files)
+New changes unstated
+9. git restore --staged <file>
+
+====
+
+
+
