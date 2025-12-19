@@ -15,3 +15,15 @@ git show "sha id"
 
 ===
 New changes
+19/12 commends learned
+
+Branch creation and push 
+1. git checkout -b Feature-branch-name
+2. git push --set-upstream origin Feature-branch-name
+
+In Github created merged pull request deleted newly created branch
+
+To get updated code from GitHub to local used below command
+
+3. git pull origin main
+
